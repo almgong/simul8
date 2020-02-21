@@ -1,0 +1,30 @@
+{
+  "name": "simul8",
+  "version": "1.0.0",
+  "description": "Simulate behaviors in your browser by writing custom code for agents",
+  "main": "index.js",
+  "scripts": {
+    "dist": "webpack -p",
+    "dist:watch": "webpack --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/almgong/simul8.git"
+  },
+  "author": "@almgong",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/almgong/simul8/issues"
+  },
+  "homepage": "https://github.com/almgong/simul8#readme",
+  "devDependencies": {
+    "@babel/core": "^7.8.4",
+    "@babel/preset-env": "^7.8.4",
+    "babel-loader": "^8.0.6",
+    "webpack": "^4.41.6",
+    "webpack-cli": "^3.3.11"
+  },
+  "dependencies": {
+    "paper": "^0.12.4"
+  }
+}
